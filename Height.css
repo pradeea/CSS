@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style media="screen">
+  .body{
+    background-color: black:
+  }
+  .main{
+    background-color: LightSalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+  }
+  .second-main{
+    background-color: black;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .button{
+      padding:10px;
+      color:white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        /* transform: rotate(30deg); */
+    }
+    .button-1{
+            background-color:black;
+
+    }
+    .button-2{
+            background-color:LightSalmon;
+    }
+    .button-3{
+      background-color: PowderBlue;
+    }
+  </style>
+  <body class='body'>
+    <div class='main'>
+      <button type="button" class="button button-1">First Button</button>
+    </div>
+    <div class='second-main'>
+          <button type="button" class="button button-2">Second Button</button>
+    </div>
+
+  </body>
+</html>
